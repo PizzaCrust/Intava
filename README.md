@@ -14,7 +14,7 @@ interface Test {
 
     method getCallType with {CalledType callType}
 
-    value testValue as java.lang.Object readWrite
+    value testValue as java.lang.Object accessible readWrite
 
     value intValue as int accessible read
 
